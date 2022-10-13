@@ -1,6 +1,6 @@
 package ec.edu.espol.workshops;
 
-
-public class CarInsurance {
-	
+public enum Sex {
+	MALE, 
+	FEMALE,
 }
