@@ -5,4 +5,19 @@ public class Customer {
 	private String sex;
 	private boolean maritalStatus;
 	
+	
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	
+	public void setMaritalStatus(boolean maritalStatus) {
+		this.maritalStatus = maritalStatus;
+	}
+	
+	
 }
