@@ -18,6 +18,10 @@ public class Customer {
 		this.maritalStatus = maritalStatus;
 	}
 
+	public void setDrivingLicence(boolean drivingLicence) {
+		this.drivingLicence = drivingLicence;
+	}
+
 	public int getAge() {
 		return age;
 	}
