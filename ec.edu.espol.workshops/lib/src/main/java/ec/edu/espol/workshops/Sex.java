@@ -1,6 +1,17 @@
 package ec.edu.espol.workshops;
 
 public enum Sex {
-	MALE, 
-	FEMALE,
+	MALE("M"), 
+	FEMALE("F");
+	
+	private String sexLetter;
+	
+	private Sex(String letter) {
+		this.sexLetter = letter;
+	}
+	
+	@Override
+	public String toString() {
+		return this.sexLetter;
+	}
 }
