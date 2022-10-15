@@ -23,19 +23,19 @@ public class Customer {
 	}
 
 	public int getAge() {
-		return age;
+		return this.age;
 	}
 
 	public Sex getSex() {
-		return sex;
+		return this.sex;
 	}
 
 	public boolean isMaritalStatus() {
-		return maritalStatus;
+		return this.maritalStatus;
 	}
 
 	public boolean isDrivingLicence() {
-		return drivingLicence;
+		return this.drivingLicence; 
 	}	
 	
 	

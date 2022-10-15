@@ -1,7 +1,6 @@
 package ec.edu.espol.workshops;
 
 import java.util.Scanner;
-import java.io.InputStream;
 
 public class Main {
 	
@@ -65,7 +64,7 @@ public class Main {
 					break;
 				} else if (inputMarried.toUpperCase().equals("N")) {
 					customer.setMaritalStatus(false);
-					break;
+					break; 
 				} else {
 					System.out.println("Invalid data. Plese input a valid option");
 				}
@@ -100,6 +99,8 @@ public class Main {
 		} else {
 			System.out.println("Customer data invalid, returned -1.");
 		}
+		
+		scan.close();
 
 	}
 
