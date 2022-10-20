@@ -4,18 +4,20 @@ package ec.edu.espol.workshops;
 public class CarInsurance {
 	private long id;
 	private double mount = 500;
-	private Customer customer;
 	
+	
+	
+	public CarInsurance() {
+		this.id = 0;
+		this.mount = 500;
+	}
+
 	public long getId() {
 		return id;
 	}
 	
 	public double getMount() {
 		return mount;
-	}
-	
-	public Customer getCustomer() {
-		return customer;
 	}
 	
 	public double calculatePremium(Customer customer) {

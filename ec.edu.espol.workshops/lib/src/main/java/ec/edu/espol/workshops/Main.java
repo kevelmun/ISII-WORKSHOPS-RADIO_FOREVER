@@ -1,5 +1,6 @@
 package ec.edu.espol.workshops;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -30,7 +31,7 @@ public class Main {
 						break;
 					}
 					System.out.println("Invalid data. Please input a valid number.");
-				} catch (Exception e) {
+				} catch (NumberFormatException e) {
 					System.out.println("Invalid data. Please input a number.");
 				}
 			}
@@ -38,16 +39,17 @@ public class Main {
 				try {
 					System.out.println("Input your sex (M - F):");
 					String inputSex = scan.next();
-					if (inputSex.toUpperCase().equals("M")) {
+					if (inputSex.toUpperCase(Locale.ENGLISH).equals("M")) {
 						customer.setSex(Sex.MALE);
 						break;
-					} else if (inputSex.toUpperCase().equals("F")) {
+					} else if (inputSex.toUpperCase(Locale.ENGLISH).equals("F")) {
 						customer.setSex(Sex.FEMALE);
 						break;
 					} else {
-						System.out.println("Invalid data. Plese input a valid option");
+						throw new RuntimeException();
 					}
-				} catch (Exception e) {
+				} catch (RuntimeException e) {
+					System.out.println(e);
 					System.out.println("Invalid data. Plese input a valid option.");
 				}
 			}
@@ -55,16 +57,16 @@ public class Main {
 				try {
 					System.out.println("Are you married? (Y - N):");
 					String inputMarried = scan.next();
-					if (inputMarried.toUpperCase().equals("Y")) {
+					if (inputMarried.toUpperCase(Locale.ENGLISH).equals("Y")) {
 						customer.setMaritalStatus(true);
 						break;
-					} else if (inputMarried.toUpperCase().equals("N")) {
+					} else if (inputMarried.toUpperCase(Locale.ENGLISH).equals("N")) {
 						customer.setMaritalStatus(false);
 						break;
 					} else {
-						System.out.println("Invalid data. Plese input a valid option");
+						throw new RuntimeException();
 					}
-				} catch (Exception e) {
+				} catch (RuntimeException e) {
 					System.out.println("Invalid data. Plese input a valid option.");
 				}
 			}
@@ -95,7 +97,7 @@ public class Main {
 			} 
 			System.out.println("Want to check another customer premium value? (Y/N)");
 			String action = scan.next();
-			if (action.toUpperCase().equals("N")) {
+			if (action.toUpperCase(Locale.ENGLISH).equals("N")) {
 				break;
 			}
 		}
