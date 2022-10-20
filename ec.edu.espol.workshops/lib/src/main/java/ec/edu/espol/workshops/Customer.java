@@ -1,9 +1,29 @@
 package ec.edu.espol.workshops;
 
+/**
+ * 
+ * @author Josebas007
+ *
+ */
 public class Customer {
+	/**
+	 * Customer age.
+	 */
 	private int age;
+	
+	/**
+	 * Customer sex.
+	 */
 	private Sex sex;
+	
+	/**
+	 * Customer marital status.
+	 */
 	private boolean maritalStatus;
+	
+	/**
+	 * Customer valid driving licence.
+	 */
 	private boolean drivingLicence;
 	
 	public void setAge(int age) {
