@@ -20,26 +20,29 @@ public class CarInsurance {
 	 */
 	private Customer customer;
 	
-	/**
-	 * Default constructor.
-	 */
-	public CarInsurance() {
-		super();
-	}
+
 
 	/**
-	 * 
+	 * Creates a instance of CarInsurance with specific attributes.
 	 * @param id
 	 * @param mount
 	 * @param customer
 	 */
 	public CarInsurance(long id, double mount, Customer customer) {
-		super();
 		this.id = id;
 		this.mount = mount;
 		this.customer = customer;
 	}
 
+	/**
+	 * Creates a instance of CarInsurance.
+	 */
+	public CarInsurance() {
+		/**
+		 * Default constructor.
+		 */
+	}
+	
 	public long getId() {
 		return id;
 	}

@@ -4,8 +4,14 @@ import java.util.Scanner;
 
 public class Main {
 	
+	/**
+	 * Checks for a valid customer.
+	 * @param customer
+	 * @return
+	 */
 	public static int validateCustomer(Customer customer) {
-		if (customer.getAge() > 80) {
+		boolean validAge = customer.getAge() > 80;
+		if (validAge) {
 			return -1;
 		} else if  (!customer.isDrivingLicence()) {
 			return -1;
