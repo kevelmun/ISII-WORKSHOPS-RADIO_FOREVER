@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.50.0" timestamp="2022-10-20T18:57:46.891">
+<file name="src/main/java/ec/edu/espol/workshops/CarInsurance.java">
+<violation beginline="8" endline="86" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#dataclass" priority="3">
+DataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=6, WMC=16)
+</violation>
+<violation beginline="8" endline="86" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#dataclass" priority="3">
+DataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=6, WMC=16)
+</violation>
+</file>
+<file name="src/main/java/ec/edu/espol/workshops/Customer.java">
+<violation beginline="8" endline="62" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#dataclass" priority="3">
+DataClass: The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+<violation beginline="8" endline="62" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#dataclass" priority="3">
+DataClass: The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+</violation>
+</file>
+<file name="src/main/java/ec/edu/espol/workshops/Main.java">
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+ModifiedCyclomaticComplexity: The class 'Main' has a Modified Cyclomatic Complexity of 12 (Highest = 19).
+</violation>
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+ModifiedCyclomaticComplexity: The class 'Main' has a Modified Cyclomatic Complexity of 12 (Highest = 19).
+</violation>
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="StdCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+StdCyclomaticComplexity: The class 'Main' has a Standard Cyclomatic Complexity of 12 (Highest = 19).
+</violation>
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="StdCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+StdCyclomaticComplexity: The class 'Main' has a Standard Cyclomatic Complexity of 12 (Highest = 19).
+</violation>
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="5" endline="112" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="CognitiveComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+CognitiveComplexity: The method 'main(String)' has a cognitive complexity of 45, current threshold is 15
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="CognitiveComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+CognitiveComplexity: The method 'main(String)' has a cognitive complexity of 45, current threshold is 15
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+CyclomaticComplexity: The method 'main(String)' has a cyclomatic complexity of 20.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+CyclomaticComplexity: The method 'main(String)' has a cyclomatic complexity of 20.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+ModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 19.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+ModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 19.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+NPathComplexity: The method 'main(String)' has an NPath complexity of 2501, current threshold is 200
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+NPathComplexity: The method 'main(String)' has an NPath complexity of 2501, current threshold is 200
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="NcssCount" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#ncsscount" priority="3">
+NcssCount: The method 'main(String)' has a NCSS line count of 65.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="NcssCount" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#ncsscount" priority="3">
+NcssCount: The method 'main(String)' has a NCSS line count of 65.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="StdCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+StdCyclomaticComplexity: The method 'main' has a Standard Cyclomatic Complexity of 19.
+</violation>
+<violation beginline="22" endline="110" begincolumn="0" endcolumn="0" rule="StdCyclomaticComplexity" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+StdCyclomaticComplexity: The method 'main' has a Standard Cyclomatic Complexity of 19.
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="29" endline="110" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'insurance' (lines '29'-'110').
+</violation>
+<violation beginline="29" endline="110" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'insurance' (lines '29'-'110').
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+AvoidDuplicateLiterals: The String literal "Invalid data. Plese input a valid option." appears 4 times in this file; the first occurrence is on line 57
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+AvoidDuplicateLiterals: The String literal "Invalid data. Plese input a valid option." appears 4 times in this file; the first occurrence is on line 57
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="62" endline="62" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="62" endline="62" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="71" endline="71" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="71" endline="71" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="73" endline="73" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="73" endline="73" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="74" endline="74" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="74" endline="74" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="79" endline="79" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="79" endline="79" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="100" endline="100" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="100" endline="100" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+UnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="ec.edu.espol.workshops" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.50.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+</pmd>

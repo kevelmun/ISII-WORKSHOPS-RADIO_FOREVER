@@ -3,17 +3,35 @@ package ec.edu.espol.workshops;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * Main Class.
+ *
+ * @author CltControl
+ *
+ */
 public class Main {
-	
+
+	/**
+	 * Static method that validate the conditions of customer.
+	 *
+	 * @param customer A customer that applied the car insurance.
+	 * @return -1 if the customer not applied, 0 if applied.
+	 */
 	public static int validateCustomer(Customer customer) {
-		if (customer.getAge() > 80) {
+		boolean validAge = customer.getAge() > 80;
+		if (validAge) {
 			return -1;
 		} else if  (!customer.isDrivingLicence()) {
 			return -1;
 		}
 		return 0;
 	}
-
+	
+	/**
+	   * Main method.
+	   *
+	   * @param args any argument.
+	   */
 	public static void main(String[] args) {		
 		
 		
@@ -90,8 +108,6 @@ public class Main {
 			if (validateCustomer(customer) == 0) {
 				System.out.println("Your premium value is: " + insurance.calculatePremium(customer));
 				
-				
-				
 			} else {
 				System.out.println("Customer data invalid, returned -1.");
 			} 
@@ -102,7 +118,5 @@ public class Main {
 			}
 		}
 		scan.close();
-
 	}
-
 }
