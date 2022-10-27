@@ -1,5 +1,6 @@
 package ec.edu.espol.workshops;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -25,97 +26,97 @@ public class Main {
 		}
 		return 0;
 	}
-
-  /**
-   * Main method.
-   *
-   * @param args any argument.
-   */
-  public static void main(String[] args) {
-
-    Scanner scan = new Scanner(System.in);
-
-    while (true) {
-      Customer customer = new Customer();
-      CarInsurance insurance = new CarInsurance();
-      while (true) {
-        try {
-          System.out.println("Input your age:");
-          int input = Integer.parseInt(scan.next());
-          if (input >= 18 && input <= 80) {
-            customer.setAge(input);
-            break;
-          }
-          System.out.println("Invalid data. Please input a valid number.");
-        } catch (Exception e) {
-          System.out.println("Invalid data. Please input a number.");
-        }
-      }
-      while (true) {
-        try {
-          System.out.println("Input your sex (M - F):");
-          String inputSex = scan.next();
-          if (inputSex.toUpperCase().equals("M")) {
-            customer.setSex(Sex.MALE);
-            break;
-          } else if (inputSex.toUpperCase().equals("F")) {
-            customer.setSex(Sex.FEMALE);
-            break;
-          } else {
-            System.out.println("Invalid data. Plese input a valid option");
-          }
-        } catch (Exception e) {
-          System.out.println("Invalid data. Plese input a valid option.");
-        }
-      }
-      while (true) {
-        try {
-          System.out.println("Are you married? (Y - N):");
-          String inputMarried = scan.next();
-          if (inputMarried.toUpperCase().equals("Y")) {
-            customer.setMaritalStatus(true);
-            break;
-          } else if (inputMarried.toUpperCase().equals("N")) {
-            customer.setMaritalStatus(false);
-            break;
-          } else {
-            System.out.println("Invalid data. Plese input a valid option");
-          }
-        } catch (Exception e) {
-          System.out.println("Invalid data. Plese input a valid option.");
-        }
-      }
-      while (true) {
-        try {
-          System.out.println("Is your driving license valid? (Y - N):");
-          String inputLicense = scan.next();
-          if (inputLicense.equals("Y")) {
-            customer.setDrivingLicence(true);
-            break;
-          } else if (inputLicense.equals("N")) {
-            customer.setDrivingLicence(false);
-            break;
-          } else {
-            System.out.println("Invalid data. Plese input a valid option.");
-          }
-        } catch (Exception e) {
-          System.out.println("Invalid data. Plese input a valid option.");
-        }
-      }
-      if (validateCustomer(customer) == 0) {
-        System.out.println("Your premium value is: " + insurance.calculatePremium(customer));
-
-      } else {
-        System.out.println("Customer data invalid, returned -1.");
-      }
-      System.out.println("Want to check another customer premium value? (Y/N)");
-      String action = scan.next();
-      if (action.toUpperCase().equals("N")) {
-        break;
-      }
-    }
-    scan.close();
-
-  }
-
+	
+	/**
+	   * Main method.
+	   *
+	   * @param args any argument.
+	   */
+	public static void main(String[] args) {		
+		
+		
+		Scanner scan = new Scanner(System.in);
+		
+		while (true) {
+			Customer customer = new Customer();
+			CarInsurance insurance = new CarInsurance();
+			while (true) {
+				try {
+					System.out.println("Input your age:");
+					int input = Integer.parseInt(scan.next());
+					if (input >= 18 && input <= 80) {
+						customer.setAge(input);
+						break;
+					}
+					System.out.println("Invalid data. Please input a valid number.");
+				} catch (NumberFormatException e) {
+					System.out.println("Invalid data. Please input a number.");
+				}
+			}
+			while (true) {
+				try {
+					System.out.println("Input your sex (M - F):");
+					String inputSex = scan.next();
+					if (inputSex.toUpperCase(Locale.ENGLISH).equals("M")) {
+						customer.setSex(Sex.MALE);
+						break;
+					} else if (inputSex.toUpperCase(Locale.ENGLISH).equals("F")) {
+						customer.setSex(Sex.FEMALE);
+						break;
+					} else {
+						throw new RuntimeException();
+					}
+				} catch (RuntimeException e) {
+					System.out.println(e);
+					System.out.println("Invalid data. Plese input a valid option.");
+				}
+			}
+			while (true) {
+				try {
+					System.out.println("Are you married? (Y - N):");
+					String inputMarried = scan.next();
+					if (inputMarried.toUpperCase(Locale.ENGLISH).equals("Y")) {
+						customer.setMaritalStatus(true);
+						break;
+					} else if (inputMarried.toUpperCase(Locale.ENGLISH).equals("N")) {
+						customer.setMaritalStatus(false);
+						break;
+					} else {
+						throw new RuntimeException();
+					}
+				} catch (RuntimeException e) {
+					System.out.println("Invalid data. Plese input a valid option.");
+				}
+			}
+			while (true) {
+				try {
+					System.out.println("Is your driving license valid? (Y - N):");
+					String inputLicense = scan.next();
+					if (inputLicense.equals("Y")) {
+						customer.setDrivingLicence(true);
+						break;
+					} else if (inputLicense.equals("N")) {
+						customer.setDrivingLicence(false);
+						break;
+					} else {
+						System.out.println("Invalid data. Plese input a valid option.");
+					}
+				} catch (Exception e) {
+					System.out.println("Invalid data. Plese input a valid option.");
+				}
+			}
+			if (validateCustomer(customer) == 0) {
+				System.out.println("Your premium value is: " + insurance.calculatePremium(customer));
+				
+			} else {
+				System.out.println("Customer data invalid, returned -1.");
+			} 
+			System.out.println("Want to check another customer premium value? (Y/N)");
+			String action = scan.next();
+			if (action.toUpperCase(Locale.ENGLISH).equals("N")) {
+				break;
+			}
+		}
+		scan.close();
+	}
 }
