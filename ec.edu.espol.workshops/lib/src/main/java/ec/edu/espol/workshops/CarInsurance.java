@@ -1,7 +1,6 @@
 package ec.edu.espol.workshops;
 
 /**
-<<<<<<< HEAD
  * CarInsurance class.
  *
  * @author Josebas007
@@ -17,16 +16,16 @@ public class CarInsurance {
 	 * Default mount to pay for an insurance.
 	 */
 	private double mount = 500;
-<<<<<<< HEAD
 	
-	
-	
+	/**
+	 * Creates a instance of CarInsurance.
+	 */
 	public CarInsurance() {
 		this.id = 0;
 		this.mount = 500;
 	}
 
-=======
+
 	/**
 	 * The actual customer 
 	 */
@@ -46,16 +45,6 @@ public class CarInsurance {
 		this.customer = customer;
 	}
 
-	/**
-	 * Creates a instance of CarInsurance.
-	 */
-	public CarInsurance() {
-		/**
-		 * Default constructor.
-		 */
-	}
-	
->>>>>>> master
 	public long getId() {
 		return id;
 	}
@@ -63,9 +52,7 @@ public class CarInsurance {
 	public double getMount() {
 		return mount;
 	}
-	
-<<<<<<< HEAD
-=======
+
 	public Customer getCustomer() {
 		return customer;
 	}
@@ -87,7 +74,6 @@ public class CarInsurance {
 	 * @param customer
 	 * @return final customer mount to be pay for the insurance. 
 	 */
->>>>>>> master
 	public double calculatePremium(Customer customer) {
 		if (customer.getSex() == Sex.MALE && !customer.isMaritalStatus() && customer.getAge() < 25) {
 			return this.mount += 1500;
