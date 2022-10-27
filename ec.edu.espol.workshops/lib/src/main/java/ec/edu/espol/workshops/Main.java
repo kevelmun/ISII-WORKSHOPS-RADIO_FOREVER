@@ -10,20 +10,21 @@ import java.util.Scanner;
  */
 public class Main {
 
-  /**
-   * Static method that validate the conditions of customer.
-   *
-   * @param customer A customer that applied the car insurance.
-   * @return -1 if the customer not applied, 0 if applied.
-   */
-  public static int validateCustomer(Customer customer) {
-    if (customer.getAge() > 80) {
-      return -1;
-    } else if (!customer.isDrivingLicence()) {
-      return -1;
-    }
-    return 0;
-  }
+	/**
+	 * Static method that validate the conditions of customer.
+	 *
+	 * @param customer A customer that applied the car insurance.
+	 * @return -1 if the customer not applied, 0 if applied.
+	 */
+	public static int validateCustomer(Customer customer) {
+		boolean validAge = customer.getAge() > 80;
+		if (validAge) {
+			return -1;
+		} else if  (!customer.isDrivingLicence()) {
+			return -1;
+		}
+		return 0;
+	}
 
   /**
    * Main method.
