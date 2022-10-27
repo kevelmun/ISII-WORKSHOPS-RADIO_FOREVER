@@ -1,7 +1,9 @@
 package ec.edu.espol.workshops;
 
 /**
- * 
+<<<<<<< HEAD
+ * CarInsurance class.
+ *
  * @author Josebas007
  *
  */

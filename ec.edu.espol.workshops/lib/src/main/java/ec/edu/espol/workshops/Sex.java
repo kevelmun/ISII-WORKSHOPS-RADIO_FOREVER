@@ -1,11 +1,13 @@
 package ec.edu.espol.workshops;
 
 /**
- * 
- * @author Josebas007
+<<<<<<< HEAD
+ * Sex enum.
  *
- * Sex options.
+ * @author CltControl
+ *
  */
+
 public enum Sex {
 	
 	/**

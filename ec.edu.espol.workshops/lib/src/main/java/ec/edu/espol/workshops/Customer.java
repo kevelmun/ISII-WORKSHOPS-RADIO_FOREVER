@@ -1,8 +1,9 @@
 package ec.edu.espol.workshops;
 
 /**
- * 
- * @author Josebas007
+ * Customer class.
+ *
+ * @author CltControl
  *
  */
 public class Customer {
@@ -26,6 +27,8 @@ public class Customer {
 	 */
 	private boolean drivingLicence;
 	
+	
+	
 	public void setAge(int age) {
 		this.age = age;
 	}
@@ -39,24 +42,23 @@ public class Customer {
 	}
 
 	public void setDrivingLicence(boolean drivingLicence) {
-		this.drivingLicence = drivingLicence;
-	}
+	    this.drivingLicence = drivingLicence;
+	  }
 
 	public int getAge() {
-		return this.age;
-	}
+	    return this.age;
+	  }
 
 	public Sex getSex() {
-		return this.sex;
-	}
+	    return this.sex;
+	  }
 
 	public boolean isMaritalStatus() {
-		return this.maritalStatus;
-	}
+	    return this.maritalStatus;
+	  }
 
 	public boolean isDrivingLicence() {
-		return this.drivingLicence; 
-	}	
-	
-	
+	    return this.drivingLicence;
+	  }
+
 }
