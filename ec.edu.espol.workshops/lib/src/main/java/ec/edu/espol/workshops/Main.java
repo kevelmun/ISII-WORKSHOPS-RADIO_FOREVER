@@ -18,7 +18,7 @@ public class Main {
 	 * @return -1 if the customer not applied, 0 if applied.
 	 */
 	public static int validateCustomer(Customer customer) {
-		boolean validAge = customer.getAge() > 80;
+		boolean validAge = customer.getAge() > 80 || customer.getAge() < 18;
 		if (validAge) {
 			return -1;
 		} else if  (!customer.isDrivingLicence()) {
