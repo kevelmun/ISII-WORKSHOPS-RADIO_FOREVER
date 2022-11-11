@@ -44,11 +44,8 @@ public class Main {
 				try {
 					System.out.println("Input your age:");
 					int input = Integer.parseInt(scan.next());
-					if (input >= 18 && input <= 80) {
-						customer.setAge(input);
-						break;
-					}
-					System.out.println("Invalid data. Please input a valid number.");
+					customer.setAge(input);
+					break;
 				} catch (NumberFormatException e) {
 					System.out.println("Invalid data. Please input a number.");
 				}
@@ -92,10 +89,10 @@ public class Main {
 				try {
 					System.out.println("Is your driving license valid? (Y - N):");
 					String inputLicense = scan.next();
-					if (inputLicense.equals("Y")) {
+					if (inputLicense.toUpperCase(Locale.ENGLISH).equals("Y")) {
 						customer.setDrivingLicence(true);
 						break;
-					} else if (inputLicense.equals("N")) {
+					} else if (inputLicense.toUpperCase(Locale.ENGLISH).equals("N")) {
 						customer.setDrivingLicence(false);
 						break;
 					} else {
@@ -107,7 +104,6 @@ public class Main {
 			}
 			if (validateCustomer(customer) == 0) {
 				System.out.println("Your premium value is: " + insurance.calculatePremium(customer));
-				
 			} else {
 				System.out.println("Customer data invalid, returned -1.");
 			} 
