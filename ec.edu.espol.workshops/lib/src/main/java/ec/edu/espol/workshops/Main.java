@@ -65,7 +65,7 @@ public class Main {
 					}
 				} catch (RuntimeException e) {
 					System.out.println(e);
-					System.out.println("Invalid data. Plese input a valid option.");
+					System.out.println("Invalid data. Please input a valid option.");
 				}
 			}
 			while (true) {
@@ -82,7 +82,7 @@ public class Main {
 						throw new RuntimeException();
 					}
 				} catch (RuntimeException e) {
-					System.out.println("Invalid data. Plese input a valid option.");
+					System.out.println("Invalid data. Please input a valid option.");
 				}
 			}
 			while (true) {
@@ -96,10 +96,10 @@ public class Main {
 						customer.setDrivingLicence(false);
 						break;
 					} else {
-						System.out.println("Invalid data. Plese input a valid option.");
+						System.out.println("Invalid data. Please input a valid option.");
 					}
 				} catch (Exception e) {
-					System.out.println("Invalid data. Plese input a valid option.");
+					System.out.println("Invalid data. Please input a valid option.");
 				}
 			}
 			if (validateCustomer(customer) == 0) {
