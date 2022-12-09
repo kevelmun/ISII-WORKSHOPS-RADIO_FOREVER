@@ -15,7 +15,7 @@ public class CarInsurance {
 	/**
 	 * Default mount to pay for an insurance.
 	 */
-	private double mount = 500;
+	private double mount = 600;
 	
 	/**
 	 * Creates a instance of CarInsurance.
