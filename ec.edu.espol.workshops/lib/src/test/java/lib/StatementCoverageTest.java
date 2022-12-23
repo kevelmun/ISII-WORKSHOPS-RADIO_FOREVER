@@ -11,6 +11,8 @@ import ec.edu.espol.workshops.Sex;
 
 public class StatementCoverageTest {
 
+	// Comentario
+	
 	@Test
 	public void tc0001() {
 		Customer cliente = new Customer();
