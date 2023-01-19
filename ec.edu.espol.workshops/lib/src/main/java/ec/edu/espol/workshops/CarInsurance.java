@@ -76,12 +76,21 @@ public class CarInsurance {
 	 */
 	public double calculatePremium(Customer customer) {
 		if (customer.getSex() == Sex.MALE && !customer.isMaritalStatus() && customer.getAge() < 25) {
-			return this.mount += 1500;
-		} else if (customer.getSex() == Sex.FEMALE && customer.isMaritalStatus()) {
-			return this.mount -= 200;
-		} else if (customer.getAge() >= 45 && customer.getAge() < 65) {
-			return this.mount -= 100;
+			this.mount += 1500;
+		} 
+		if (customer.isMaritalStatus() && customer.getAge() > 30 && customer.getAge() < 60) {
+			this.mount -= 50;
+		} 
+		if (!customer.isMaritalStatus() && customer.getSex() == Sex.FEMALE && customer.getAge() > 60) {
+			this.mount -= 50;
+		} 
+		if (customer.getSex() == Sex.FEMALE && customer.isMaritalStatus()) {
+			this.mount -= 200;
 		}
+		if (customer.getAge() >= 45 && customer.getAge() < 65) {
+			this.mount -= 100;
+		} 
+		
 		return this.mount;
 	}
 	
